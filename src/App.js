@@ -137,7 +137,7 @@ console.log(deskHeaderHeight);
               <span>About</span>
               <span>Services</span>
               <span>Projects</span>
-              <button className='text-black text-md header bg-white p-2 px-4 rounded-3xl hover:bg-sky-300'>CONTACT</button>
+              <button className=' text-md header text-black bg-white p-2 px-4 rounded-3xl hover:bg-sky-300'>CONTACT</button>
           </div>
         </nav>
         <div className='sm:hidden'>
@@ -159,14 +159,14 @@ console.log(deskHeaderHeight);
           <img src={eggImg} alt='egg'/>
         </div>
 
-        <div className='flex flex-col items-center header gap-8 my-16 px-10 sm:w-1/2'>
+        <div className='flex flex-col items-center header gap-8 my-16 px-10 sm:w-1/2 '>
           <span className='text-4xl text-center text-VDDB'>Tarnsform your brand</span>
           <p className='text text-center text-lg text-gray-500'>We are full-service creating agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
           <span className='text-black decoration-softRed underline cursor-pointer'>LEARN MORE</span>
         </div>
        
-        <div className='hidden sm:block w-1/2'>
-          <img src={eggImgDesk} alt="egg"/>
+        <div className='hidden sm:flex w-1/2'>
+          <img src={eggImgDesk} className='object-cover' alt="egg"/>
         </div>
       </div>
       
